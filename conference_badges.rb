@@ -16,6 +16,7 @@ end
    newArr = []
   array.each do |i|
     newArr << "Hello, #{name}! You'll be assigned to room #{room}!" 
+  end
  return newArr
  end
 
