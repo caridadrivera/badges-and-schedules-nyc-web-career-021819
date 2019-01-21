@@ -12,7 +12,7 @@ return newBadge
 end
  
  
- def assign_rooms(name)
+ def assign_rooms(array)
    newArr = []
   array.each_with_index {|name, room|
     newArr << "Hello, #{name}! You'll be assigned to room #{room}!" }
