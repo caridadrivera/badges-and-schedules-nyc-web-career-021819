@@ -18,6 +18,7 @@ room = 0
   array.collect do |name|
     room += 1
     newArr << "Hello, #{name}! You'll be assigned to room #{room}!" 
+  end
  return newArr
  end
 
@@ -27,7 +28,7 @@ def printer
   end
   assign_rooms(array).each do |name|
     puts name
-end
+ end
 end 
 
  
