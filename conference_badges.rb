@@ -25,6 +25,6 @@ end
    batch_badge_creator(array)
  end
   assign_rooms(name).each do |i|
-    p assign_rooms(name)
+    p i
  end
  
