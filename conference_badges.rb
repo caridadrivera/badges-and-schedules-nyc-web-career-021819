@@ -16,7 +16,6 @@ end
    newArr = []
   array.each_with_index {|name, room|
     newArr << "Hello, #{name}! You'll be assigned to room #{room}!" }
- end
  return newArr
  end
 
