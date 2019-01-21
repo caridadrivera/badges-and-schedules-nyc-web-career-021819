@@ -28,4 +28,4 @@ end
   assign_rooms(name).each do |name|
     p assign_rooms(name)
  end
- end
+ 
