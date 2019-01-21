@@ -20,6 +20,7 @@ end
  return newArr
  end
  
+ 
  def printer 
    batch_badge_creator(array)
  end
