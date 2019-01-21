@@ -19,3 +19,8 @@ end
  end
  return newArr
  end
+ 
+ def printer 
+   batch_badge_creator(array)
+  assign_rooms(name).each do |name|
+ end
