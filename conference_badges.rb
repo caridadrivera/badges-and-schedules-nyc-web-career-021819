@@ -22,12 +22,12 @@ room = 0
  return newArr
  end
 
-def printer
+def printer(attendees)
   batch_badge_creator(array).each do |number|
     puts number
   end
-  assign_rooms(array).each do |name|
-    puts name
+  assign_rooms(array).each do |num|
+    puts num
  end
 end 
 
